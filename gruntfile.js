@@ -34,7 +34,7 @@ module.exports = function build( grunt ) {
       },
       js: {
         files: [
-          'scripts/src/*.*'
+          'static/scripts/src/*.*'
         ],
         tasks: [ 'uglify' ]
       }
@@ -50,9 +50,9 @@ module.exports = function build( grunt ) {
         files: [
           {
             expand: true,
-            cwd: 'scripts/src',
+            cwd: 'static/scripts/src',
             src: [ '*.js' ],
-            dest: 'scripts'
+            dest: 'static/scripts'
           }
         ]
       }
@@ -87,8 +87,8 @@ module.exports = function build( grunt ) {
         "vendor",
         "static/readme.md",
         "composer.lock",
-        "styles/*.css",
-        "scripts/*.js"
+        "static/styles/*.css",
+        "static/scripts/*.js"
       ],
       update: [
         "composer.lock"

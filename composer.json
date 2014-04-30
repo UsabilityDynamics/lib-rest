@@ -39,13 +39,6 @@
       "role": "Developer"
     }
   ],
-  "extra": {
-    "component": {
-      "scripts": [
-        "scripts/udx.requires.js",
-        "scripts/udx.requires.asset.js"
-      ]
-    }
-  },
+  "extra": {},
   "license": "MIT"
 }
